@@ -1,0 +1,76 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  background-color:#c5d28f;
+  color: black;
+  padding:30px;
+  text-align:center;
+}
+h1,h2{
+  font-family: 'Roboto', sans-serif;
+  color:white;
+}
+
+.banner{
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  color:white;
+  padding: 120px 0;
+}
+
+.container{
+  width: 50px;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration:none;
+  font-size:18px;
+  color: white;
+  font-weight:bold;
+  transition: 0,3ease;
+}
+
+.link-medium{
+  text-decoration:none;
+  font-size:18px;
+  color: rgb(12, 82, 7);
+  font-weight:bold;
+  transition: 0,3ease;
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  border-radius: 4px;
+}
+
+a:hover.link-medium{
+  text-decoration:none;
+  font-size:18px;
+  color: rgb(36, 36, 150);
+  font-weight:bold;
+  transition: 0,3ease;
+  background-image: linear-gradient(to bottom, rgb(233, 253, 148), rgb(233, 149, 253));
+  border-radius: 4px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 900px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 300px;
+  }
+}
